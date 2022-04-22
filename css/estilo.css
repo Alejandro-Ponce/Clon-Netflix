@@ -62,7 +62,7 @@ header{
 
 
 .article__contenedor__fondo{
-    background-image: url("img/background_trend.jpg");
+    background-image: url("../img/background_trend.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
