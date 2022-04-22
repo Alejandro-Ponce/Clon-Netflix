@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Netflix Clon - Ejercicio para Codo a Codo</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <!----- Logo ----->
+            <div class="header__logo">
+                <img src="img/Logo_netflix.png" alt="">
+            </div>
+            <!---------------->
+            <nav class="header__nav">
+                <select class="header__nav__seleccion" id="seleccion_idioma">
+                    <option value="ES">Español</option>
+                    <option value="EN">English</option>
+                </select>
+                <a href="" class="header__nav__boton">Iniciar sesión</a>
+            </nav>
+        </header>
+
+        <main>
+            <article class="main__article">
+                <!-- Fondo con degradiente-->
+                <div class="article__fondo">
+                    <div class="article__contenedor__fondo"></div>
+                    <div class="article__contenedor__fondo_gradiente"></div>
+                    <div class="article__contenedor__gradiente"></div>
+                </div>
+                <!-------------------------->
+                <div class="main__article__principal">
+                    <h1>Películas y series ilimitadas y mucho más.</h1>
+                    <h2> Disfruta donde quieras. Cancela cuando quieras.</h2>
+                    <h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+                    </h3>
+                    <form class="main__article__principal__form">
+                        <label for="email" class="main__article__principal__form__campo">
+                            <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            class="main__article__principal__form__campo"
+                            placeholder = "Email"
+                            required
+                            />
+                        </label>
+                        <input type="submit" value="Comenzar >" id="enviar" class="main__article__principal__form__btn">
+                    </form>
+                </div>
+            </article>
+
+            <article class="main__article__extras">
+
+                <div class="main__article__contenedor_animacion">
+                    <div class="main__article__contenedor_animacion__texto">
+                        <h1>Disfruta en tu TV.</h1>
+                        <h2>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h2>
+                    </div>
+
+                    <div class="main__article__contenedor_animacion__video">
+                        <div class="main__article__contenedor_animacion__video__img">
+                            <img src="img/tv.png" class="main__article__contenedor_animacion__video__img__tv" alt="">
+                        </div>
+                        <div class="main__article__contenedor_animacion__video__m4v">
+                            <video src="vid/video-tv.m4v" class="main__article__contenedor_animacion__video__m4v__item" autoplay="" playsinline="" muted="" loop=""></video>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="main__article__extras">
+
+                <div class="main__article__contenedor_animacion perfil_kids">
+                    <div class="main__article__contenedor_animacion__texto">
+                        <h1>Crea perfiles para niños.</h1>
+                        <h2>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</h2>
+                    </div>
+
+                    <div class="main__article__contenedor_animacion__video">
+                        <div class="main__article__contenedor_animacion__video__img">
+                            <img src="img/perfil-kids.png" class="main__article__contenedor_animacion__video__img__tv" alt="">
+                    </div>
+                </div>
+            </article>
+
+        </main>
+
+        <footer class="footer__contenedor">
+            <div class="footer__contenedor__preguntas">
+                <p>¿Preguntas? Llama al 0-800-666-2803</p>
+            </div>
+            <div class="footer__contenedor__varios">
+                <div class="footer_contenedor_varios__fila_1">
+                    <a href="">Preguntas frecuentes</a>
+                    <a href="">Relaciones con inversionistas</a>
+                    <a href="">Privacidad</a>
+                    <a href="">Netflix Argentina</a>
+                </div>
+                <div class="footer_contenedor_varios__fila_2">
+                    <a href="">Centro de ayuda</a>
+                    <a href="">Empleo</a>
+                    <a href="">Preferencias de cookies</a>
+                    <a href="">Avisos legales</a>
+                </div>
+                <div class="footer_contenedor_varios__fila_3">
+                    <a href="">Cuenta</a>
+                    <a href="">Formas de ver</a>
+                    <a href="">Información corporativa</a>
+                    <a href="">Solo en Netflix</a>
+                </div>
+                <div class="footer_contenedor_varios__fila_4">
+                    <a href="">Preguntas frecuentes</a>
+                    <a href="">Relaciones con inversionistas</a>
+                    <a href="">Privacidad</a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>
